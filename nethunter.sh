@@ -92,9 +92,6 @@ cp /data/data/com.offsec.nethunter/files/scripts/stop-openvpn /system/bin
 cp /data/data/com.offsec.nethunter/files/scripts/stop-ssh /system/bin
 cp /data/data/com.offsec.nethunter/files/scripts/stop-vpn /system/bin
 cp /data/data/com.offsec.nethunter/files/scripts/stop-web /system/bin
-sleep 2
-echo "Installing Nethunter Busybox..."
-sh /sdcard/install_nh/tools/installbusybox.sh
 sleep 3
 echo "Cleaning up..."
 rm -r /data/local/nhsystem/kali-armhf
